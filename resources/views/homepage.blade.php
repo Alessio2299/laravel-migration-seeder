@@ -26,7 +26,7 @@
         <p>{{$travel->description}}</p>
         <div class="buy">
           <span class="price">{{$travel->price}} €</span>
-          <button>Prenota</button>
+          <button>Buy</button>
         </div>
       </div>
       @endforeach
