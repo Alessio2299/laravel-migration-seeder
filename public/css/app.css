@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.content .cardTravel {
+  background-color: #000;
+  width: 30%;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.content .cardTravel h2 {
+  text-transform: uppercase;
+}
+
+.content .cardTravel img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 20px 0;
+}
+
+.content .cardTravel .info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.content .cardTravel .info .place {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.content .cardTravel .buy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.content .cardTravel .buy .price {
+  font-size: 25px;
+}
+
